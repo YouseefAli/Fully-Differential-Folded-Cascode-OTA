@@ -1,0 +1,23 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Sep  4 07:58:48 2024 
+Best design point: 1
+Design specs: 
+	Fully_Differential_OTA:Lab_11-part4_TB:1	corner	Nominal - 
+Design parameters: 
+	CL		500f
+	IB		10u
+	VCASCN		1.08
+	VCASCP		1.276
+	VDD		2.5
+	VICM		550m
+	VICMAC		0
+	VID		0
+	VIDAC		1
+	VREF		2.077
+
+Interactive.3
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.3 completed. 
+Current time: Wed Sep  4 07:58:50 2024 

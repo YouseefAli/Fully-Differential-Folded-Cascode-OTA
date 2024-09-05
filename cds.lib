@@ -1,0 +1,3 @@
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/cds.lib
+DEFINE MentorObserverLib $MGC_HOME/shared/pkgs/icv/tools/realtime/virtuoso/MentorObserverLib
+DEFINE Fully_Differential_OTA /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA

@@ -1,0 +1,712 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>Fully_Differential_OTA:Lab_11-part4_TB:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>Lab_11-part4_TB</value>
+					</option>
+					<option>lib
+						<value>Fully_Differential_OTA</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>Fully_Differential_OTA:Lab_11-part4_TB:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>Lab_11-part4_TB</value>
+					</option>
+					<option>lib
+						<value>Fully_Differential_OTA</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var>CL
+				<value>0.5p</value>
+				<dependentTests>
+					<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>IB
+				<value>10u</value>
+				<dependentTests>
+					<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VCASCN
+				<value>1.08</value>
+				<dependentTests>
+					<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VCASCP
+				<value>1.276</value>
+				<dependentTests>
+					<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDD
+				<value>2.5</value>
+				<dependentTests>
+					<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VICM
+				<value>0.55</value>
+				<dependentTests>
+					<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VICMAC
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VID
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VIDAC
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VREF
+				<value>2.077</value>
+				<dependentTests>
+					<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value>                            </value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Fully_Differential_OTA:Lab_11-part4_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Lab_11-part4_TB</value>
+							</option>
+							<option>lib
+								<value>Fully_Differential_OTA</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Fully_Differential_OTA:Lab_11-part4_TB:1_none_Interactive.0</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Lab_11-part4_TB</value>
+							</option>
+							<option>lib
+								<value>Fully_Differential_OTA</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>CL
+						<value>0.5p</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IB
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCN
+						<value>1.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCP
+						<value>1.276</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>2.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.55</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICMAC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDAC
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>2.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Wed Sep  4 07:44:45 2024
+</timestamp>
+			<resultsname>/home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart4_TB/adexl/results/data/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_074445437</localpsfdir>
+			<psfdir>/home/cadence/simulation/Fully_Differential_OTA/Lab_11-part4_TB/adexl/results/data/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Fully_Differential_OTA/Lab_11-part4_TB/adexl/results/data/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart4_TB/adexl/results/data/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.1
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Fully_Differential_OTA:Lab_11-part4_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Lab_11-part4_TB</value>
+							</option>
+							<option>lib
+								<value>Fully_Differential_OTA</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Fully_Differential_OTA:Lab_11-part4_TB:1_none_Interactive.1</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Lab_11-part4_TB</value>
+							</option>
+							<option>lib
+								<value>Fully_Differential_OTA</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>CL
+						<value>0.5p</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IB
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCN
+						<value>1.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCP
+						<value>1.276</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>2.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.55</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICMAC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDAC
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>2.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Wed Sep  4 07:46:57 2024
+</timestamp>
+			<resultsname>/home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart4_TB/adexl/results/data/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_074657120</localpsfdir>
+			<psfdir>/home/cadence/simulation/Fully_Differential_OTA/Lab_11-part4_TB/adexl/results/data/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Fully_Differential_OTA/Lab_11-part4_TB/adexl/results/data/Interactive.1</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart4_TB/adexl/results/data/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.1.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Fully_Differential_OTA:Lab_11-part4_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Lab_11-part4_TB</value>
+							</option>
+							<option>lib
+								<value>Fully_Differential_OTA</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Fully_Differential_OTA:Lab_11-part4_TB:1_none_Interactive.2</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Lab_11-part4_TB</value>
+							</option>
+							<option>lib
+								<value>Fully_Differential_OTA</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>CL
+						<value>0.5p</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IB
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCN
+						<value>1.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCP
+						<value>1.276</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>2.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.55</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICMAC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDAC
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>2.077</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Wed Sep  4 07:49:16 2024
+</timestamp>
+			<resultsname>/home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart4_TB/adexl/results/data/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_074916804</localpsfdir>
+			<psfdir>/home/cadence/simulation/Fully_Differential_OTA/Lab_11-part4_TB/adexl/results/data/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Fully_Differential_OTA/Lab_11-part4_TB/adexl/results/data/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart4_TB/adexl/results/data/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.3
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Fully_Differential_OTA:Lab_11-part4_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Lab_11-part4_TB</value>
+							</option>
+							<option>lib
+								<value>Fully_Differential_OTA</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Fully_Differential_OTA:Lab_11-part4_TB:1_none_Interactive.3</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Lab_11-part4_TB</value>
+							</option>
+							<option>lib
+								<value>Fully_Differential_OTA</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>CL
+						<value>0.5p</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IB
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCN
+						<value>1.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCP
+						<value>1.276</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>2.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.55</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICMAC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDAC
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>2.077</value>
+						<dependentTests>
+							<dependentTest omitted="0">Fully_Differential_OTA:Lab_11-part4_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Wed Sep  4 07:58:48 2024
+</timestamp>
+			<resultsname>/home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart4_TB/adexl/results/data/Interactive.3.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.3.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_075848233</localpsfdir>
+			<psfdir>/home/cadence/simulation/Fully_Differential_OTA/Lab_11-part4_TB/adexl/results/data/Interactive.3</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Fully_Differential_OTA/Lab_11-part4_TB/adexl/results/data/Interactive.3</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart4_TB/adexl/results/data/Interactive.3.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.3.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>
