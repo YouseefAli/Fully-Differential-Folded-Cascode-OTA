@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = Fully_Differential_OTA
-	Cell         = Lab_11-part5
+	Cell         = Lab_11-part3
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = Fully_Differential_OTA:Lab_11-part5:1_none_Interactive.3
-	Results DB   = /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart5/adexl/results/data/Interactive.3.rdb
-	Results Dir  = /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.3/1/Fully_Differential_OTA:Lab_11-part5:1
-	Results Loc  = /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data
+	State Name   = Fully_Differential_OTA:Lab_11-part3:1_none_Interactive.18
+	Results DB   = /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart3/adexl/results/data/Interactive.18.rdb
+	Results Dir  = /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part3/adexl/results/data/Interactive.18/1/Fully_Differential_OTA:Lab_11-part3:1
+	Results Loc  = /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part3/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart5/adexl
+	Setup DB loc = /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart3/adexl
 	File Encoding = 0
 
 
@@ -27,8 +27,8 @@
 
 
 
-*Info*    Run start for Point ID (19 1) on testbench [
-          Fully_Differential_OTA:Lab_11-part5:1 ].
+*Info*    Run start for Point ID (10 1) on testbench [
+          Fully_Differential_OTA:Lab_11-part3:1 ].
 
 Resetting statistical vars
 
@@ -43,25 +43,25 @@ Setting var VICM = "0.55"
 Setting var VICMAC = "0"
 Setting var VID = "0"
 Setting var VIDAC = "1"
-Setting var VREF = "2.077"
+Setting var VREF = "1.25"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.3/1/Fully_Differential_OTA:Lab_11-part5:1/netlist
+          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part3/adexl/results/data/Interactive.18/1/Fully_Differential_OTA:Lab_11-part3:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.3/1/Fully_Differential_OTA:Lab_11-part5:1
+          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part3/adexl/results/data/Interactive.18/1/Fully_Differential_OTA:Lab_11-part3:1
 
 
-*Info*    Creating Netlist for Point ID (19 1)
+*Info*    Creating Netlist for Point ID (10 1)
 
 generate netlist...
-Begin Incremental Netlisting Sep  5 00:31:25 2024
-End netlisting Sep  5 00:31:25 2024
+Begin Incremental Netlisting Sep  7 05:38:52 2024
+End netlisting Sep  7 05:38:52 2024
 
 Netlisting Statistics:
-	Number of components:   22
+	Number of components:    6
 
 	Elapsed time:          0.0s
 Errors: 0	Warnings: 0
@@ -70,9 +70,9 @@ compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          Fully_Differential_OTA:Lab_11-part5:1 ] for Point ID (19 1).
+          Fully_Differential_OTA:Lab_11-part3:1 ] for Point ID (10 1).
 
-Delete psf data in /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.3/1/Fully_Differential_OTA:Lab_11-part5:1/psf.
+Delete psf data in /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part3/adexl/results/data/Interactive.18/1/Fully_Differential_OTA:Lab_11-part3:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -81,89 +81,14 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
-INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
-        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
-        to view the simulation run log.
-
-*Error*   Error ID  = 5011
-*Error*   Error Msg = Simulator failed to complete the simulation.
-
-          Fatal error found by spectre during topology check.
-FATAL:
-          The following branches form a loop of rigid branches
-          (shorts) when added to the circuit:
-
-
-
-
-
-
-
-
-
-
-*Info*    Run start for Point ID (19 1) on testbench [
-          Fully_Differential_OTA:Lab_11-part5:1 ].
-
-Resetting statistical vars
-
-*Info*    Setting parameter values ...
-
-Setting var CL = "500f"
-Setting var IB = "10u"
-Setting var VCASCN = "1.08"
-Setting var VCASCP = "1.276"
-Setting var VDD = "2.5"
-Setting var VICM = "0.55"
-Setting var VICMAC = "0"
-Setting var VID = "0"
-Setting var VIDAC = "1"
-Setting var VREF = "2.077"
-Setting temp(T) = 27
-
-*Info*    Netlist Directory =
-          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.3/1/Fully_Differential_OTA:Lab_11-part5:1/netlist
-
-
-*Info*    Data Directory    =
-          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.3/1/Fully_Differential_OTA:Lab_11-part5:1
-
-
-*Info*    Creating Netlist for Point ID (19 1)
-
-generate netlist...
-Begin Incremental Netlisting Sep  5 00:31:26 2024
-End netlisting Sep  5 00:31:26 2024
-
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
       ...successful.
-compose simulator input file...
-      ...successful.
+*Info*    Client has finished evaluating ... 
 
-*Info*    Running simulation on testbench [
-          Fully_Differential_OTA:Lab_11-part5:1 ] for Point ID (19 1).
 
-Delete psf data in /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.3/1/Fully_Differential_OTA:Lab_11-part5:1/psf.
-compose simulator input file...
-      ...successful.
-start simulator if needed...
-      ...successful.
-simulate...
-To view the simulator output, right-click on the test name, result 
-name, or any value in the "Results" tab of the Outputs section and 
-choose "Output Log" menu option.
-INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
-        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
-        to view the simulation run log.
-
-*Error*   Error ID  = 5011
-*Error*   Error Msg = Simulator failed to complete the simulation.
-
-          Fatal error found by spectre during topology check.
-FATAL:
-          The following branches form a loop of rigid branches
-          (shorts) when added to the circuit:
+*Info*    Run complete for Point ID (10 1) on testbench [
+          Fully_Differential_OTA:Lab_11-part3:1 ].
 
 
 

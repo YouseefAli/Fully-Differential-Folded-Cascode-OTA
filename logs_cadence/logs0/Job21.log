@@ -11,9 +11,9 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = Fully_Differential_OTA:Lab_11-part5:1_none_Interactive.2
-	Results DB   = /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart5/adexl/results/data/Interactive.2.rdb
-	Results Dir  = /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.2/1/Fully_Differential_OTA:Lab_11-part5:1
+	State Name   = Fully_Differential_OTA:Lab_11-part5:1_none_Interactive.5
+	Results DB   = /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart5/adexl/results/data/Interactive.5.rdb
+	Results Dir  = /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1
 	Results Loc  = /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart5/adexl
@@ -36,8 +36,8 @@ Resetting statistical vars
 
 Setting var CL = "500f"
 Setting var IB = "10u"
-Setting var VCASCN = "1.08"
-Setting var VCASCP = "1.276"
+Setting var VCASCN = "1.415"
+Setting var VCASCP = "1.428"
 Setting var VDD = "2.5"
 Setting var VICM = "0.55"
 Setting var VICMAC = "0"
@@ -47,18 +47,18 @@ Setting var VREF = "2.077"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.2/1/Fully_Differential_OTA:Lab_11-part5:1/netlist
+          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.2/1/Fully_Differential_OTA:Lab_11-part5:1
+          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1
 
 
 *Info*    Creating Netlist for Point ID (4 1)
 
 generate netlist...
-Begin Incremental Netlisting Sep  4 08:47:44 2024
-End netlisting Sep  4 08:47:44 2024
+Begin Incremental Netlisting Sep  7 04:20:48 2024
+End netlisting Sep  7 04:20:48 2024
 
 Netlisting Statistics:
 	Number of components:   22
@@ -72,7 +72,7 @@ compose simulator input file...
 *Info*    Running simulation on testbench [
           Fully_Differential_OTA:Lab_11-part5:1 ] for Point ID (4 1).
 
-Delete psf data in /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.2/1/Fully_Differential_OTA:Lab_11-part5:1/psf.
+Delete psf data in /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -85,6 +85,36 @@ INFO (ADE-3071): Simulation completed successfully.
 reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
+
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+ERROR (ADEXL-2708): Evaluation of output 'Ao_cl' failed for point:'1' test:'Fully_Differential_OTA:Lab_11-part5:1'
+	Expression:'ymax(mag((VF("/VOUTN") - VF("/VOUTP"))))'
+	because of the following error(s)
+	*Error* difference: can't handle (nil - nil).
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+ERROR (ADEXL-2708): Evaluation of output 'GBW' failed for point:'1' test:'Fully_Differential_OTA:Lab_11-part5:1'
+	Expression:'(ymax(mag((VF("/VOUTN") - VF("/VOUTP")))) * bandwidth((VF("/VOUTN") - VF("/VOUTP")) 3 "low"))'
+	because of the following error(s)
+	*Error* difference: can't handle (nil - nil).
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.5/1/Fully_Differential_OTA:Lab_11-part5:1/psf. Use results() for a list of available results.
+ERROR (ADEXL-2708): Evaluation of output 'BW' failed for point:'1' test:'Fully_Differential_OTA:Lab_11-part5:1'
+	Expression:'bandwidth((VF("/VOUTN") - VF("/VOUTP")) 3 "low")'
+	because of the following error(s)
+	*Error* difference: can't handle (nil - nil).
+Ensure that the definition of output is correct.
 
 
 *Info*    Run complete for Point ID (4 1) on testbench [

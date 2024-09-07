@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = Fully_Differential_OTA
-	Cell         = Lab_11-part5
+	Cell         = Lab_11-part3
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = Fully_Differential_OTA:Lab_11-part5:1_none_Interactive.3
-	Results DB   = /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart5/adexl/results/data/Interactive.3.rdb
-	Results Dir  = /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.3/1/Fully_Differential_OTA:Lab_11-part5:1
-	Results Loc  = /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data
+	State Name   = Fully_Differential_OTA:Lab_11-part3:1_none_Interactive.25
+	Results DB   = /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart3/adexl/results/data/Interactive.25.rdb
+	Results Dir  = /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part3/adexl/results/data/Interactive.25/1/Fully_Differential_OTA:Lab_11-part3:1
+	Results Loc  = /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part3/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart5/adexl
+	Setup DB loc = /home/cadence/Desktop/Projects/Fully_Differential_OTA/Fully_Differential_OTA/Lab_11#2dpart3/adexl
 	File Encoding = 0
 
 
@@ -27,8 +27,8 @@
 
 
 
-*Info*    Run start for Point ID (26 1) on testbench [
-          Fully_Differential_OTA:Lab_11-part5:1 ].
+*Info*    Run start for Point ID (17 1) on testbench [
+          Fully_Differential_OTA:Lab_11-part3:1 ].
 
 Resetting statistical vars
 
@@ -43,22 +43,23 @@ Setting var VICM = "0.55"
 Setting var VICMAC = "0"
 Setting var VID = "0"
 Setting var VIDAC = "1"
-Setting var VREF = "2.077"
+Setting var VREF = "1.25"
+Setting var W = "8u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.3/1/Fully_Differential_OTA:Lab_11-part5:1/netlist
+          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part3/adexl/results/data/Interactive.25/1/Fully_Differential_OTA:Lab_11-part3:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.3/1/Fully_Differential_OTA:Lab_11-part5:1
+          /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part3/adexl/results/data/Interactive.25/1/Fully_Differential_OTA:Lab_11-part3:1
 
 
-*Info*    Creating Netlist for Point ID (26 1)
+*Info*    Creating Netlist for Point ID (17 1)
 
 generate netlist...
-Begin Incremental Netlisting Sep  5 01:10:44 2024
-End netlisting Sep  5 01:10:44 2024
+Begin Incremental Netlisting Sep  7 05:44:36 2024
+End netlisting Sep  7 05:44:36 2024
 
 	The netlist is up to date.
 	Time taken to compare the design with netlist:   0.0s
@@ -67,9 +68,9 @@ compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          Fully_Differential_OTA:Lab_11-part5:1 ] for Point ID (26 1).
+          Fully_Differential_OTA:Lab_11-part3:1 ] for Point ID (17 1).
 
-Delete psf data in /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part5/adexl/results/data/Interactive.3/1/Fully_Differential_OTA:Lab_11-part5:1/psf.
+Delete psf data in /home/cadence/simulation/Fully_Differential_OTA/Lab_11-part3/adexl/results/data/Interactive.25/1/Fully_Differential_OTA:Lab_11-part3:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -84,8 +85,8 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (26 1) on testbench [
-          Fully_Differential_OTA:Lab_11-part5:1 ].
+*Info*    Run complete for Point ID (17 1) on testbench [
+          Fully_Differential_OTA:Lab_11-part3:1 ].
 
 
 
